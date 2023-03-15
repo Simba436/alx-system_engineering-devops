@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find . -mindepth 1 -type d | wc -l
+=======
+find . mindepth 1 -type d -printf '.' | wc -c
+>>>>>>> f5ad3705c4c172de9c075c9abab9c57a1b9bd05c

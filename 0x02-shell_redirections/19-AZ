@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #1/bin/bash
 tr 'Ac' 'Ze' 
+=======
+#!/bin/bash
+tr 'Ac' 'Ze'
+>>>>>>> f5ad3705c4c172de9c075c9abab9c57a1b9bd05c
