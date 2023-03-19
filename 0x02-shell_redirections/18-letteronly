@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 #1/bin/bash
 grep "^[a-zA-Z]" /etc/ssh/sshd_config
-=======
-#!/bin/bash
-grep '^[a-zA-Z]' /etc/ssh/sshd_config
->>>>>>> f5ad3705c4c172de9c075c9abab9c57a1b9bd05c
