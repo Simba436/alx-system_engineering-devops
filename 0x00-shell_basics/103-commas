@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1a | awk '{print $0 ", "}' | sed 's#/\$#,/#' | LC_COLLATE=C LC_ALL=C sort -df | sed '1s/^/.,\n..\n/;s#/$#,/#' | tr -d '\n' && echo
-
+ls -1a | awk '{print $0 ", "}' | sed 's#/\$#,/#' | LC_COLLATE=C LC_ALL=C sort -df | sed '1s/^/.,\n..\n/;s#/$#,/#' | tr -d '\n'
